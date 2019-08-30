@@ -1,0 +1,25 @@
+.app-nav{
+    background:aqua;
+    text-align:center;
+    a { 
+      color:green;
+      padding:15px 0;
+      display:inline-block;  
+      min-width:150px;
+      font-weight:150px;
+      font-size:16px;
+      text-transform:uppercase;
+      border-bottom:3px solid transparent;
+      &:hover,
+      &.active{
+          color:#fff;
+          border-bottom-color: #fff
+      } 
+    }
+}
+
+.wrapper{
+    max-width:800px;
+    width:95%;
+    margin:0 auto;
+}
